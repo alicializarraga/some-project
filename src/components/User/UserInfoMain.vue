@@ -26,17 +26,17 @@ export default {
   data () {
     return {
       menuItems: [
-        { name: "Personal", url: '/#/user/info/personal' },
-        { name: "Allergies", url: '/#/user/info/allergies' },
-        { name: "Medications", url: '/#/user/info/medications' },
-        { name: "Medical History", url: '/#/user/info/medical-history' },
-        { name: "Procedures", url: '/#/user/info/procedures' },
-        { name: "Family History", url: '/#/user/info/family-history' },
-        { name: "Questions", url: '/#/user/info/questions' },
-        { name: "Pharmacy", url: '/#/user/info/pharmacy' },
-        { name: "Payment", url: '/#/user/info/payment' },
-        { name: "Doctors", url: '/#/user/info/doctors' },
-        { name: "Settings", url: '/#/user/info/settings' },
+        { name: "1. Personal", url: '/#/user/info/personal' },
+        { name: "2. Allergies", url: '/#/user/info/allergies' },
+        { name: "3. Medications", url: '/#/user/info/medications' },
+        { name: "4. Medical History", url: '/#/user/info/medical-history' },
+        { name: "5. Procedures", url: '/#/user/info/procedures' },
+        { name: "6. Family History", url: '/#/user/info/family-history' },
+        { name: "7. Questions", url: '/#/user/info/questions' },
+        { name: "8. Pharmacy", url: '/#/user/info/pharmacy' },
+        { name: "9. Payment", url: '/#/user/info/payment' },
+        { name: "10. Doctors", url: '/#/user/info/doctors' },
+        { name: "11. Settings", url: '/#/user/info/settings' },
       ]
     }
   },
