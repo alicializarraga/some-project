@@ -1,7 +1,7 @@
 <template>
   <div class="user-dashboard">
-    <router-link to="/user/info/personal">User Info</router-link>
-    <h1>Blah</h1>
+    <a href="#/user/info/personal">User Info</a>
+    <h1>Blahs</h1>
   </div>
 </template>
 

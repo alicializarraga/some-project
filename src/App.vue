@@ -22,6 +22,7 @@ export default {
 
 <style>
   div > a.logo-wrapper {
+    height: 64px;
     padding: 10px;
   }
 
