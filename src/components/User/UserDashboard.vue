@@ -1,7 +1,7 @@
 <template>
   <div class="user-dashboard">
     <a href="#/user/info/personal">User Info</a>
-    <h1>Blahs</h1>
+    <h1>Wonderful User Dashboard</h1>
   </div>
 </template>
 
