@@ -60,6 +60,7 @@
              <input type="checkbox" id="ch13" />
              <label for="ch13">Thyroid disease</label>
            </li>
+           <li>
              <input type="checkbox" id="ch14" />
              <label for="ch14">______________</label>
            </li>

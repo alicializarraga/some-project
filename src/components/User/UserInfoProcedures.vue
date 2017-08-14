@@ -53,6 +53,7 @@
              <input type="checkbox" id="ch11" />
              <label for="ch11">Vasectomy</label>
            </li>
+           <li>
              <input type="checkbox" id="ch12" />
              <label for="ch12">______________</label>
            </li>
