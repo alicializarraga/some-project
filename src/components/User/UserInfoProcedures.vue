@@ -1,6 +1,72 @@
 <template>
   <div class="user-info-procedures">
     <h1>{{ msg }}</h1>
+
+    <form>
+       <input type="checkbox" id="test5" />
+       <label for="test5">-userName- has not have any past medical procedures</label>
+       <p><label class="plainText"><strong>Kindly check which medical procedures -UserName- has undergone</strong></label></p>
+
+       <div>
+         <ul class="chk">
+           <li>
+             <input type="checkbox" id="ch1" />
+             <label for="ch1">Angioplasty</label>
+           </li>
+           <li>
+             <input type="checkbox" id="ch2" />
+             <label for="ch2">Appendectomy</label>
+           </li>
+           <li>
+             <input type="checkbox" id="ch3" />
+             <label for="ch3">Back surgery</label>
+           </li>
+           <li>
+             <input type="checkbox" id="ch4" />
+             <label for="ch4">Gallbladder surgery</label>
+           </li>
+           <li>
+             <input type="checkbox" id="ch5" />
+             <label for="ch5">Heart bypass</label>
+           </li>
+           <li>
+             <input type="checkbox" id="ch6" />
+             <label for="ch6">Hernia repair</label>
+           </li>
+           <li>
+             <input type="checkbox" id="ch7" />
+             <label for="ch7">Hip replacement</label>
+           </li>
+           <li>
+             <input type="checkbox" id="ch8" />
+             <label for="ch8">Knee surgery</label>
+           </li>
+           <li>
+             <input type="checkbox" id="ch9" />
+             <label for="ch9">Pacemaker</label>
+           </li>
+           <li>
+             <input type="checkbox" id="ch10" />
+             <label for="ch10">Tonsillectomy</label>
+           </li>
+           <li>
+             <input type="checkbox" id="ch11" />
+             <label for="ch11">Vasectomy</label>
+           </li>
+             <input type="checkbox" id="ch12" />
+             <label for="ch12">______________</label>
+           </li>
+
+         </ul>
+       </div>
+
+    </form>
+    <div class="row">
+      <div class="col s12">
+        <router-link class="btn" to="family-history">Continue</router-link>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -17,5 +83,21 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.plainText {
+  color: #46B4BB;
+  font-size: 18px;
+}
 
+.chk li
+{
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+.noChk {
+  display: block;
+  float: left;
+  width: 100%;
+}
 </style>

@@ -60,9 +60,8 @@
              <input type="checkbox" id="ch13" />
              <label for="ch13">Thyroid disease</label>
            </li>
-
-             <input type="checkbox" id="ch19" />
-             <label for="ch19">______________</label>
+             <input type="checkbox" id="ch14" />
+             <label for="ch14">______________</label>
            </li>
 
          </ul>
@@ -74,7 +73,6 @@
         <router-link class="btn" to="procedures">Continue</router-link>
       </div>
     </div>
-
   </div>
 </template>
 
