@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
     <form>
        <input type="checkbox" id="test5" />
-       <label for="test5">-UserName- has not been diagnosed with any medical conditions</label>
+       <label for="test5">-UserName- has not been diagnosed with any medical conditions </label>
        <p><label class="plainText"><strong>Kindly check any medical conditions -userName- has been diagnosed with</strong></label></p>
 
        <div>
